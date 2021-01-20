@@ -33,7 +33,7 @@ const timerId = clearTimeout(
   0
 );
 clearTimeout(timerId);
-//
+// Prints Hello world every second! 5 times and terminates
 let counter = 0;
 const timerId = setInterval(() => {
   console.log('Hello world every second!');
