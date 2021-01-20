@@ -31,7 +31,6 @@ const numbers = [2, 4, 6];
 const person = {
   firstName: 'John',
   lastName: 'Johnson',
-  firstName: 'Jones',
 };
 person.firstName = 'Emeka';
 console.log(person.firstName);
