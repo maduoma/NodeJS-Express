@@ -34,11 +34,11 @@
 // );
 // clearTimeout(timerId);
 let counter = 0;
-const intervalId = setInterval(() => {
-  console.log('Hello World!');
+const timerId = setInterval(() => {
+  console.log('Hello world every second!');
   counter++;
   if (counter === 5) {
     console.log('Done!');
-    clearInterval(intervalId);
+    clearInterval(timerId);
   }
 }, 1 * 1000);
