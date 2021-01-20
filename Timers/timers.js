@@ -33,3 +33,10 @@
 //   0
 // );
 // clearTimeout(timerId);
+const fiveTimes = (hello) =>
+  setInterval(() => {
+    for (var i = 0; i < 5; i++) {
+      console.log('Hello World!'), 1 * 100;
+    }
+    console.log('Done!');
+  });
