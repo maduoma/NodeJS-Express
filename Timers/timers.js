@@ -33,10 +33,12 @@
 //   0
 // );
 // clearTimeout(timerId);
-const fiveTimes = (hello) =>
-  setInterval(() => {
-    for (var i = 0; i < 5; i++) {
-      console.log('Hello World!'), 1 * 100;
-    }
+let counter = 0;
+const intervalId = setInterval(() => {
+  console.log('Hello World!');
+  counter++;
+  if (counter === 5) {
     console.log('Done!');
-  });
+    clearInterval(intervalId);
+  }
+}, 1 * 1000);
