@@ -4,7 +4,7 @@ var express        = require('express');
 var expressLayouts = require('express-ejs-layouts');
 var bodyParser     = require('body-parser');
 var app            = express();
-var port           = process.env.PORT || 8080;
+var PORT           = process.env.PORT || 3000;
 
 // use ejs and express layouts
 app.set('view engine', 'ejs');
@@ -22,7 +22,8 @@ app.use('/', router);
 app.use(express.static(__dirname + '/public'));
 
 // start the server
-app.listen(port, function() {
-  console.log('app started');
+app.listen(PORT, function(err) {
+  if(err) console.error(err);
+  console.log(`App started at: http://localhost:${PORT}`);
 });
 

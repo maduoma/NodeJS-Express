@@ -1,10 +1,8 @@
-# Build a Website with Node.js
-
+# A Website with NodeJS And EJS Template Engine
 
 ## Instructions
 
-1. Clone the repo: `git@github.com:scotch-io/node-website-course.git`
+1. Clone the repo
 2. Install packages: `npm install`
-3. Start the server: `node server.js`
-4. Visit in browser at: `http://localhost:8080`
-
+3. Start the server: `npm start`
+4. Visit in browser at: `http://localhost:3000`
