@@ -1,10 +1,9 @@
 # Express Test-Driven Development
 
 ## Getting started
-1. Git clone repo
-2. cd  /repo_folder
-3. yarn install or npm install
-3. yarn run dev 
+1. Git clone the repo
+2. yarn install or npm install
+2. yarn run dev 
 
 ## Testing
 1. yarn run test or npm run test

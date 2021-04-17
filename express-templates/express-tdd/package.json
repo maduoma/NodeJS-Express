@@ -1,6 +1,7 @@
 {
-  "name": "movie_server",
+  "name": "test_driven_development_movie_server",
   "version": "1.0.0",
+  "description": "Test-Driven Development Movie",
   "scripts": {
     "build": "babel src -d dist --source-maps",
     "serve": "NODE_ENV=production node dist/index.js",
@@ -10,8 +11,8 @@
     "test:watch": "DEBUG=server:debug NODE_ENV=development mocha  --require babel-core/register --watch --reporter  spec   tests/ --exec babel-node",
     "eslint": "eslint src/**/*.js --ignore-pattern \"node_modules/\""
   },
-  "main": "index.js",
-  "author": "mbuyu",
+  "main": "app.js",
+  "author": "Maduabughichi Achilefu",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
