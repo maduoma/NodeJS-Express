@@ -8,8 +8,8 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
 hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
-app.get('/', (request, response) => {
-  return response.send('OK');
+app.get('/', (req, res) => {
+  return res.send('OK');
 });
 
 app.get('/index', (req, resp) => {
