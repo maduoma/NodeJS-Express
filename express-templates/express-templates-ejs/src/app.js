@@ -6,8 +6,8 @@ const PORT = 3000;
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-app.get('/', (request, response) => {
-  return response.send('OK');
+app.get('/', (req, resp) => {
+  return resp.send('OK');
 });
 
 app.get('/index', (req, resp) => {
