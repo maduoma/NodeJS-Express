@@ -10,7 +10,7 @@ exports.getHomePage = (req, res) => {
         }
 
         res.render('index.ejs', {
-            title: "Welcome to Socka | View Players",
+            title: "Welcome to MySoccer | View Players",
             players: result
         });
     });
