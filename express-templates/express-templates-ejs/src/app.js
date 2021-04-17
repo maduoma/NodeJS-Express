@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const PORT = 5000;
+const PORT = 3000;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -20,5 +20,5 @@ app.get('/index', (req, resp) => {
 
 app.listen(PORT, (err) => {
   if (err) console.error('❌ Unable to connect the server: ', err);
-  console.log(`App is listening on port http://localhost:${PORT}/views`);
+  console.log(`App is listening on port http://localhost:${PORT}/index`);
 });
