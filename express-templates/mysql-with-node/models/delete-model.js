@@ -1,4 +1,4 @@
-var db=require('../database');
+let db=require('../database');
 module.exports={
   deleteData:function(deleteId,callback){
     var sql = 'DELETE FROM crud WHERE id = ?';

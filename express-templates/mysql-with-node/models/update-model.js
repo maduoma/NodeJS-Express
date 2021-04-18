@@ -1,4 +1,4 @@
-var db=require('../database');
+let db=require('../database');
 module.exports={
   editData:function(editId, callback){
     

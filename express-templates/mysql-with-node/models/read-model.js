@@ -1,4 +1,4 @@
-var db=require('../database');
+let db=require('../database');
 module.exports={
   readData:function(callback){
     var sql='SELECT * FROM crud';

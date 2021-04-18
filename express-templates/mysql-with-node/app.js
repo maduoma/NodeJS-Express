@@ -14,7 +14,7 @@ app.use('/crud', readRouter);
 app.use('/crud', updateRouter);
 app.use('/crud', deleteRouter);
 
-app.set('views', __dirname + '/views'); // set express to look in this folder to render our view
+//app.set('views', __dirname + '/views'); // set express to look in this folder to render our view
 app.set('view engine', 'ejs');
 
 // set the app to listen on the port
